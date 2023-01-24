@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: snowflake_sample_data
+    schema: TPCH_SF10
+    tables:
+      - name: orders
+      - name: customer
+
+  - name: pos
+    database: snowflake_sample_data
+    schema: TPCH_SF10
+    tables:
+      - name: region
